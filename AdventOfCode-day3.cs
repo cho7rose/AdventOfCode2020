@@ -20,7 +20,7 @@ namespace AdventOfCode
 
         }
         
-        public static double GoDownSlope(int left, int down)
+        public static double GoDownSlope(int right, int down)
         {
             int x, y,ln;
             double trees;
@@ -32,14 +32,14 @@ namespace AdventOfCode
                 if(y==0)
                 {
                     ln++;
-                    x=(x+left)%31;
+                    x=(x+right)%31;
                     y=y+down;
                 }
                 else {
                     if(ln==y)
                     {
                         if(l[x]=='#') trees++;
-                        x=(x+left)%31;
+                        x=(x+right)%31;
                         y=y+down;
                     }
                     ln++;
