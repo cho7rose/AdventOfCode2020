@@ -64,8 +64,9 @@ namespace AdventOfCode
             // AdventOfCode.GetSecondStar();
             // AdventOfCodeDay2.GetFirstStar();
             // AdventOfCodeDay2.GetSecondStar();
-            AdventOfCodeDay3.GetFirstStar();
-            AdventOfCodeDay3.GetSecondStar();
+            // AdventOfCodeDay3.GetFirstStar();
+            // AdventOfCodeDay3.GetSecondStar();
+            AdventOfCodeDay4.GetFirstStar();
         }
     }
 }
